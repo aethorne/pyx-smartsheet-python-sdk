@@ -26,7 +26,7 @@ from dateutil.parser import parse
 from enum import Enum
 
 
-class TypedList(collections.MutableSequence):
+class TypedList(collections.abc.MutableSequence):
 
     def __init__(self, item_type):
         self.item_type = item_type
