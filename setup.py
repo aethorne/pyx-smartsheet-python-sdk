@@ -28,9 +28,9 @@ class PyTest(TestCommand):
         self.pytest_args = []
 
     def finalize_options(self):
-        TestCommand.finalize_options(self)
-        if isinstance(self.pytest_args, six.string_types):
-            self.pytest_args = [self.pytest_args]
+        # TestCommand.finalize_options(self)
+        # if isinstance(self.pytest_args, six.string_types):
+        #     self.pytest_args = [self.pytest_args]
         self.test_args = []
         self.test_suite = True
 
