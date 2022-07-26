@@ -8,7 +8,7 @@ NAME = 'smartsheet-python-sdk'
 REQUIRES = [
     'requests',
     'requests-toolbelt',
-    'six >= 1.9',
+#    'six >= 1.9',
     'certifi',
     'python-dateutil'
 ]
